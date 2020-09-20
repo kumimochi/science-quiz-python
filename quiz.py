@@ -1,5 +1,6 @@
 name = input("Enter your name: ")
-print("Welcome", name, "Welcome and let's start playing.")
+n = name.capitalize()
+print("Welcome", n, "let's start playing.")
 
 class Question:
     def __init__(self, prompt, answer):
@@ -40,6 +41,6 @@ def quiz(questions):
         answer = input(question.prompt)
         if answer == question.answer:
             score += 1
-    print("You got", score, "out of", len(questions))
+    print("You got", score, "out of", len(questions), ", " n)
 
 quiz(questions)
