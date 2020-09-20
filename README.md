@@ -1,3 +1,3 @@
 # science-quiz-python
 
-A simple multiple choice game in Python 
+A simple science quiz consists of 11 questions
